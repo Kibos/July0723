@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  },
+  "Mongodb": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "July0723",
+    "name": "Mongodb",
+    "connector": "mongodb"
+  }
+}
