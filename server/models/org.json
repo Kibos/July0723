@@ -1,11 +1,15 @@
 {
-  "name": "CoffeeShop11",
-  "base": "PersistedModel",
+  "name": "org",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],

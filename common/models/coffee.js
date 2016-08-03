@@ -1,14 +1,14 @@
-module.exports = function(Coffeeshop11) {
-
-   Coffeeshop11.greet = function(msg, cb) {
+module.exports = function(Coffee) {
+	   Coffee.greet = function(msg, cb) {
       cb(null, 'Greetings... ' + msg);
     }
      
-    Coffeeshop11.remoteMethod(
+    Coffee.remoteMethod(
         'greet', 
         {
           accepts: {arg: 'msg', type: 'string'},
           returns: {arg: 'greeting', type: 'string'}
         }
     );
+
 };

@@ -39,23 +39,26 @@
     "$promise": {},
     "$resolved": true
   },
-  "CoffeeShop11": {
-    "dataSource": "transient",
-    "public": true
-  },
   "product": {
     "dataSource": "Mongodb",
     "public": true
- 
-  },
-  "Coffe": {
-    "dataSource": "db",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
   },
   "user": {
     "dataSource": "Mongodb",
     "public": true
+  },
+  "Coffee": {
+    "dataSource": "Mongodb",
+    "public": false
+  },
+  "org": {
+    "dataSource": "Mongodb",
+    "public": true
+  },
+  "Goods": {
+    "dataSource": "Mongodb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

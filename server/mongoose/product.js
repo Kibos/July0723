@@ -29,12 +29,12 @@ function initModel(app,model){
 	var ds =app.datasources.transient;
 	ds.define(apiObject,productObj);
 	
-	abj = {
+
+	obj = {
 	schemaDefinition:schemaDefinition,
 	schema:schema,
 	apiObject:apiObject
 	};
-
 
 	//////////////////
 	var product=model;

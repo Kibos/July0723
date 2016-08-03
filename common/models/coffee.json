@@ -1,12 +1,15 @@
 {
-  "name": "Coffe",
-  "base": "PersistedModel",
+  "name": "Coffee",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "propertyName15": {
+      "type": "string"
+    },
+    "propertyName27": {
       "type": "string"
     }
   },
